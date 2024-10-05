@@ -1,0 +1,27 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column width as needed */
+    grid-column-gap: 16px;
+    grid-row-gap: 30px; /* Changed from '3øpx' to '30px' */
+    margin-top: 15px;
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card h2 {
+    font-size: 16px;         /* Font size of the h2 */
+    font-weight: 600;       /* Corrected font weight value; should be 600 instead of 60 */
+    color: #000;            /* Specify a color (e.g., black); add a valid color value */
+    margin: 5px 0;         /* Corrected margin; specify vertical margin only */
+}
+.card h3{
+    font-size: 14px;         /* Font size of the h2 */
+    font-weight: 600;       /* Corrected font weight value; should be 600 instead of 60 */
+    color: #555;            /* Specify a color (e.g., black); add a valid color value */
+    margin: 6px 0; 
+}
+.card p{
+    font-size: 14px;
+    
+}

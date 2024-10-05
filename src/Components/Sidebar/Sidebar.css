@@ -1,0 +1,72 @@
+.sidebar {
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0; /* Assuming you want it fixed to the top */
+    padding-left: 2%;
+    padding-top: 80px;
+  }
+  
+  .shortcut-links img {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .side-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  
+  .sidebar hr {
+    border: none; /* Assuming you want no border */
+    height: 1px; /* Set height for the divider */
+    background: #ccc; /* Color of the divider */
+    width: 85%; /* Full width of the sidebar */
+    margin: 10px 0; /* Add some vertical space around the hr */
+  }
+  
+  .subscribed-list h3{
+    font-size: 13px; /* Set font size */
+    margin: 20px 0; /* Set vertical margins */
+    color: #5a5a5a; /* Set text color */
+  }
+
+  .subscribed-list img {
+    width: 25px; /* Set width of images */
+    border-radius: 50%; /* Make images circular */
+    margin-right: 20px; /* Add space to the right of the images */
+  }
+  .small-sidebar
+  {
+    width:5%;
+  }
+  .small-sidebar p{
+    display: none;
+  }
+  .small-sidebar h3
+  {
+    display: none;
+  }
+  .small-sidebar hr{
+    width: 50%;
+    margin-bottom:25px ;
+  }
+
+  .side-link.active img{
+    padding-bottom: 2px;
+    border-bottom: 3px solid red;
+  }
+
+  @media (max-width:900px)
+  {
+    .sidebar
+    {
+      display: none;
+    }
+    
+  }

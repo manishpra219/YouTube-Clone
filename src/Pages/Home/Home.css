@@ -1,0 +1,20 @@
+.container {
+    background: #f9f9f9; /* Removed the dot before #f9f9f9 */
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* If you meant to define a larger container, you might want to add another class */
+.large-container {
+  padding-left: 7%;
+}
+@media (max-width:900px)
+{
+  .large-container, .container
+  {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

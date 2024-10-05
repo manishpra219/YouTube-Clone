@@ -1,0 +1,76 @@
+nav {
+    padding: 3px 2%; /* Corrected 'løpx' to '10px' */
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Fixed rgba values */
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10; /* Fixed 'lø' to '10' */
+  }
+
+  .nav-left .menu-icon {
+    width: 22px;
+    margin-right: 25px;
+  }
+  
+  
+  .nav-left .logo {
+    width: 130px;
+  }
+  
+  .nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+  }
+
+  .nav-middle .search-box input {
+    width: 400px; /* Corrected from 4øøpx */
+    border: none; /* Corrected from 'e' to 'none' */
+    outline: none; /* Corrected from 'e' to 'none' */
+    background: transparent; /* This is fine */
+  }
+  
+  .nav-middle .search-box img {
+    width: 15px; /* Corrected from 'irnd@' to valid CSS */
+  }
+  /* General image styles */
+.nav-right img {
+  width: 25px; /* Set default image width */
+  margin-right: 25px; /* Set margin right */
+}
+
+/* User icon specific styles */
+.nav-right .user-icon {
+  width: 35px; /* Set specific width for user icon */
+  border-radius: 50%; /* Make the user icon circular */
+}
+
+@media (max-width:900px)
+{
+  .menu-icon{
+    display: none;
+  }
+
+  .nav-right img
+  {
+    display: none;
+  }
+
+  .nav-right .user-icon{
+    display: block;
+    width:30px;
+  }
+  .logo{
+    width:90px;
+  }
+
+  .nav-middle .search-box input
+  {
+    width: 100px;
+  }
+}
+
+  
+  
